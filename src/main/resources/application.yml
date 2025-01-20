@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: spring-cloud-function
+  cloud:
+    function:
+      definition: hello
