@@ -17,4 +17,9 @@ public class SpringCloudFunctionApplication {
 	public Function<String, String> uppercase() {
 		return value -> value.toUpperCase();
 	}
+
+	@Bean
+	public Function<String, String> lowercase() {
+		return value -> value.toLowerCase();
+	}
 }
